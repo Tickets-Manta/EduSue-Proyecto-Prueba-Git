@@ -25,7 +25,7 @@ jobs:
             - name: Instalar pages
               uses: actions/configure-pages@v5
             - name: Cargar pagina
-              uses: actions/upload-pages-arctifact@v3
+              uses: actions/upload-pages-artifact@v3
               with:
                 path: '.'
             - name: Desplegar pagina
